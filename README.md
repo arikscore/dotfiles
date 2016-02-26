@@ -1,3 +1,11 @@
+# Arik's Section
+Steps of installation:
+1. copy .ssh keys to user home .ssh
+2. git clone git@github.com:arikscore/dotfiles.git
+3. cd ~/.dotfiles
+4. script/bootstrap
+
+
 # holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.

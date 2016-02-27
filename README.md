@@ -1,9 +1,9 @@
 # Arik's Section
-Steps of installation:
-1. copy .ssh keys to user home .ssh
-2. git clone git@github.com:arikscore/dotfiles.git
-3. cd ~/.dotfiles
-4. script/bootstrap
+```sh
+git clone https://github.com/arikscore/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+script/bootstrap
+```
 
 
 # holman does dotfiles

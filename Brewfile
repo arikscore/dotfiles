@@ -34,7 +34,8 @@ cask 'lastpass'
 # cask 'sophos-anti-virus-home-edition'
 cask 'spotify'
 cask 'vlc'
-
+# cask 'textwrangler'
+# cask 'teamviewer'
 
 # Work/Coding
 cask 'slack'

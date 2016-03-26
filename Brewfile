@@ -4,6 +4,7 @@ tap 'caskroom/cask'
 tap 'homebrew/bundle'
 
 brew 'ag'
+brew 'zsh'
 brew 'coreutils'
 brew 'grc'
 brew 'libgit2'
@@ -19,8 +20,7 @@ brew 'mysql'
 brew 'sqlite'
 brew 'mongodb'
 cask 'mongochef'
-cask 'robomongo'
-brew 'hub'
+# cask 'robomongo'
 
 
 # General
@@ -35,7 +35,8 @@ cask 'lastpass'
 cask 'spotify'
 cask 'vlc'
 # cask 'textwrangler'
-# cask 'teamviewer'
+cask 'teamviewer'
+cask 'picasa'
 
 # Work/Coding
 cask 'slack'
@@ -49,6 +50,7 @@ cask 'atom'
 cask 'zoomus'
 cask 'psequel'
 cask 'viscosity'
+cask 'mou'
 
 
 # Mac Specific

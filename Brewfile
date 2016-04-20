@@ -15,12 +15,13 @@ brew 'python'
 tap 'tldr-pages/tldr'
 brew 'tldr'
 brew 'rabbitmq'
-brew 'hub'
+# brew 'hub'
 brew 'mysql'
 brew 'sqlite'
 brew 'mongodb'
 cask 'mongochef'
 # cask 'robomongo'
+cask 'sqlitestudio'
 
 
 # General
@@ -37,6 +38,8 @@ cask 'vlc'
 # cask 'textwrangler'
 cask 'teamviewer'
 cask 'picasa'
+cask 'flash-player'
+cask 'handbrake'
 
 # Work/Coding
 cask 'slack'

@@ -36,6 +36,10 @@ defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool 
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
+# Set default screenshots folder
+mkdir -p ~/Pictures/screenshots/
+defaults write com.apple.screencapture location ~/Pictures/screenshots/
+
 
 ###############################################################################
 # Spectacle.app                                                               #

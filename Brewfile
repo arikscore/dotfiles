@@ -15,13 +15,13 @@ brew 'python'
 tap 'tldr-pages/tldr'
 brew 'tldr'
 brew 'rabbitmq'
-# brew 'hub'
 brew 'mysql'
 brew 'sqlite'
 brew 'mongodb'
 cask 'mongochef'
-# cask 'robomongo'
+cask 'robomongo'
 cask 'sqlitestudio'
+cask 'the-unarchiver'
 
 
 # General
@@ -36,13 +36,13 @@ cask 'lastpass'
 cask 'spotify'
 cask 'vlc'
 # cask 'textwrangler'
-cask 'teamviewer'
 cask 'picasa'
 cask 'flash-player'
 cask 'handbrake'
+cask 'flux'
 
 # Work/Coding
-cask 'slack'
+#cask 'slack'
 cask 'iterm2'
 cask 'virtualbox'
 cask 'box-edit'
@@ -54,6 +54,8 @@ cask 'zoomus'
 cask 'psequel'
 cask 'viscosity'
 cask 'mou'
+brew 'libxmlsec1'
+brew 'casperjs'
 
 
 # Mac Specific

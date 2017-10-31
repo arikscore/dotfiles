@@ -40,6 +40,8 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 mkdir -p ~/Pictures/screenshots/
 defaults write com.apple.screencapture location ~/Pictures/screenshots/
 
+# Disable chrome swipe
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
 
 ###############################################################################
 # Spectacle.app                                                               #
